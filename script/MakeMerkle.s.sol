@@ -3,8 +3,8 @@ pragma solidity ^0.8.26;
 
 import {Script, console2} from "forge-std/Script.sol";
 import {stdJson} from "forge-std/StdJson.sol";
-import {Merkle} from "murky/src/Merkle.sol";
-import {ScriptHelper} from "murky/script/common/ScriptHelper.sol";
+import {Merkle} from "@murky/src/Merkle.sol";
+import {ScriptHelper} from "@murky/script/common/ScriptHelper.sol";
 
 // Merkle proof generator script
 // To use:
