@@ -7,6 +7,7 @@
 @openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
 @openzeppelin/contracts-upgradeable=lib/openzeppelin-contracts-upgradeable/contracts/
 @chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/
-@solmate/=lib/solmate/src/
+@solmate/contracts/=lib/solmate/src/
 @murky=lib/murky/
-@lib/account-abstraction/contracts=lib/account-abstraction/contracts
+@lib/account-abstraction/contracts=lib/account-abstraction/contracts/
+@permit2/contracts/=lib/permit2/src/
