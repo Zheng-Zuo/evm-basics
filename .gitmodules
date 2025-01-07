@@ -49,3 +49,9 @@
 [submodule "lib/aave-v3-origin"]
 	path = lib/aave-v3-origin
 	url = https://github.com/aave-dao/aave-v3-origin
+[submodule "lib/ERC721A"]
+	path = lib/ERC721A
+	url = https://github.com/chiru-labs/ERC721A
+[submodule "lib/ERC721A-Upgradeable"]
+	path = lib/ERC721A-Upgradeable
+	url = https://github.com/chiru-labs/ERC721A-Upgradeable
