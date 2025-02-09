@@ -20,8 +20,16 @@ const config: HardhatUserConfig = {
                 settings: {
                     optimizer: {
                         enabled: true,
-                        runs: 200
-                    }
+                        runs: 200,
+                        details: {
+                            yul: true,
+                            yulDetails: {
+                                stackAllocation: true,
+                                optimizerSteps: "u"
+                            }
+                        }
+                    },
+                    viaIR: true
                 }
             },
             {
@@ -29,8 +37,16 @@ const config: HardhatUserConfig = {
                 settings: {
                     optimizer: {
                         enabled: true,
-                        runs: 200
-                    }
+                        runs: 200,
+                        details: {
+                            yul: true,
+                            yulDetails: {
+                                stackAllocation: true,
+                                optimizerSteps: "u"
+                            }
+                        }
+                    },
+                    viaIR: true
                 }
             },
         ]
@@ -45,7 +61,14 @@ const config: HardhatUserConfig = {
                 settings: {
                     optimizer: {
                         enabled: true,
-                        runs: 200
+                        runs: 200,
+                        details: {
+                            yul: true,
+                            yulDetails: {
+                                stackAllocation: true,
+                                optimizerSteps: "u"
+                            }
+                        }
                     }
                 }
             }],
@@ -84,6 +107,12 @@ const config: HardhatUserConfig = {
         alienx: {
             chainId: 10241024,
             url: "https://alienx.calderachain.xyz/http",
+            accounts: { mnemonic: process.env.MNEMONIC! },
+        },
+
+        bsc: {
+            chainId: 56,
+            url: `https://bnb-mainnet.g.alchemy.com/v2/${process.env.ALCHEMY_KEY}`,
             accounts: { mnemonic: process.env.MNEMONIC! },
         },
 
