@@ -55,3 +55,6 @@
 [submodule "lib/ERC721A-Upgradeable"]
 	path = lib/ERC721A-Upgradeable
 	url = https://github.com/chiru-labs/ERC721A-Upgradeable
+[submodule "lib/foundry-huff"]
+	path = lib/foundry-huff
+	url = https://github.com/huff-language/foundry-huff
