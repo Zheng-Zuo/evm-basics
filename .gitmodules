@@ -58,3 +58,6 @@
 [submodule "lib/foundry-huff"]
 	path = lib/foundry-huff
 	url = https://github.com/huff-language/foundry-huff
+[submodule "lib/curve-contract"]
+	path = lib/curve-contract
+	url = https://github.com/curvefi/curve-contract
