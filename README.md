@@ -4,7 +4,7 @@
 
 -   [Swap Math](notes/uniswap/1.swapMath.md)
 -   [Provide Liquidity](notes/uniswap/2.provideLiquidityV3.md)
--   [Fee Algorithm](notes/uniswap/3.feeAlgorithm.md)
+-   [Fee Algorithm](notes/uniswap/3.feeAlgorithmV3.md)
 -   [Time Weighted Average Price](notes/uniswap/4.Twap.md)
 -   [Create V3 Pool](notes/uniswap/5.createV3Pool.md)
 
