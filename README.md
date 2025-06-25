@@ -13,3 +13,7 @@
 
 -   [Swap Math](notes/curve/stableSwap/1.swapMath.md)
 -   [Pool Contract](notes/curve/stableSwap/2.poolContract.md)
+
+## Advanced Math
+
+-   [Sqrt In Solidity](notes/advancedMath/1.sqrtFunction.md)
